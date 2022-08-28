@@ -1,36 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
-  <meta name="wiewport" content="width=device-width,initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet" href="../css/game.css">
 
-    <link href="https://karineduim.github.io/jogodamemoria/css/reset.css" rel="stysheet" />
-
-    <link href="https://karineduim.github.io/jogodamemoria/css/login.css" rel="stysheet" />
-
-
-    <script src="https://karineduim.github.io/jogodamemoria/js/login.js"> </script>
+  <script defer src="/js/game.js"></script>
 
   <title>Memory Game</title>
-
 </head>
-
 <body>
+
+  <main>
+    <header>
+      <span class="player"></span>
+      <span>Tempo: <span class="timer">00</span></span>
+    </header>
   
-  <form class="login-form">
-
-    <div class="login_header">
-      <img src="/img/verso.png" alt="Harry Potter icon">
-      <h1>Jogo da memória</h1>
-    </div>
-
-    <input type="text" placeholder="Name" class="login_input">
-    <button  type="submit" class="login_button" disabled>Play</button>
-
-  </form>
+    <div class="grid"></div>
+  </main>
 
 </body>
-
 </html>
