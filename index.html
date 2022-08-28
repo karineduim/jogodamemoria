@@ -1,69 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
+  <meta name="wiewport" content="width=device-width,initial-scale=1.0">
+
+  <link rel="stylesheet" href="/css/reset.css">
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" href="/css/login.css">
+
+  <script defer src="/js/login.js"></script>
 
   <title>Memory Game</title>
 
-  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-  <section class="memory-game">
-    <div class="memory-card" data-framework="grifinoria">
-      <img class="front-face" src="img/hp1.png" alt="Face da Carta" />
-      <img class="back-face" src="img/verso.png" alt="Verso da Carta" />
-    </div>
-    <div class="memory-card" data-framework="grifinoria">
-      <img class="front-face" src="img/hp1.png" alt="Face da Carta" />
-      <img class="back-face" src="img/verso.png" alt="Verso da Carta" />
+  
+  <form class="login-form">
+
+    <div class="login_header">
+      <img src="/img/verso.png" alt="Harry Potter icon">
+      <h1>Jogo da memória</h1>
     </div>
 
-    <div class="memory-card" data-framework="lufalufa">
-      <img class="front-face" src="img/hp2.png" alt="Face da Carta" />
-      <img class="back-face" src="img/verso.png" alt="Verso da Carta" />
-    </div>
-    <div class="memory-card" data-framework="lufalufa">
-      <img class="front-face" src="img/hp2.png" alt="Face da Carta" />
-      <img class="back-face" src="img/verso.png" alt="Verso da Carta" />
-    </div>
+    <input type="text" placeholder="Name" class="login_input">
+    <button  type="submit" class="login_button" disabled>Play</button>
 
-    <div class="memory-card" data-framework="corvinal">
-      <img class="front-face" src="img/hp3.png" alt="Face da Carta" />
-      <img class="back-face" src="img/verso.png" alt="Verso da Carta" />
-    </div>
-    <div class="memory-card" data-framework="corvinal">
-      <img class="front-face" src="img/hp3.png" alt="Face da Carta" />
-      <img class="back-face" src="img/verso.png" alt="Verso da Carta" />
-    </div>
+  </form>
 
-    <div class="memory-card" data-framework="sonserina">
-      <img class="front-face" src="img/hp4.png" alt="Face da Carta" />
-      <img class="back-face" src="img/verso.png" alt="Verso da Carta" />
-    </div>
-    <div class="memory-card" data-framework="sonserina">
-      <img class="front-face" src="img/hp4.png" alt="Face da Carta" />
-      <img class="back-face" src="img/verso.png" alt="Verso da Carta" />
-    </div>
-
-    <div class="memory-card" data-framework="934">
-      <img class="front-face" src="img/hp5.png" alt="Face da Carta" />
-      <img class="back-face" src="img/verso.png" alt="Verso da Carta" />
-    </div>
-    <div class="memory-card" data-framework="934">
-      <img class="front-face" src="img/hp5.png" alt="Face da Carta" />
-      <img class="back-face" src="img/verso.png" alt="Verso da Carta" />
-    </div>
-
-    <div class="memory-card" data-framework="chapeuseletor">
-      <img class="front-face" src="img/hp6.png" alt="Face da Carta" />
-      <img class="back-face" src="img/verso.png" alt="Verso da Carta" />
-    </div>
-    <div class="memory-card" data-framework="chapeuseletor">
-      <img class="front-face" src="img/hp6.png" alt="Face da Carta" />
-      <img class="back-face" src="img/verso.png" alt="Verso da Carta" />
-    </div>
-  </section>
-
-  <script src="scripts.js"></script>
 </body>
+
 </html>
